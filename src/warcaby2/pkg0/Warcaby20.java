@@ -126,12 +126,12 @@ public class Warcaby20 extends JFrame {
                         listaBialych.add(p);
                         stanPlanszyPoczatek[i][j] = 1;
                     }
-                    if (i == 4 && j == 5) {
-                        nowe.setIcon(czarnyPion);
-                        pionek p = new pionek(i, j);
-                        listaCzarnych.add(p);
-                        stanPlanszyPoczatek[i][j] = 2;
-                    }
+                    ///if (i == 4 && j == 5) {
+                    //    nowe.setIcon(czarnyPion);
+                    //    pionek p = new pionek(i, j);
+                    //    listaCzarnych.add(p);
+                    //    stanPlanszyPoczatek[i][j] = 2;
+                    //}
                     ///////////////////////////////////////////
                     add(nowe); // dodanie pionkĂłw do JPanel
                 }
